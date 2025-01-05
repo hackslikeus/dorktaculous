@@ -1,5 +1,5 @@
 # dorktaculous
-building a bootstrap iframe inside a modal to display dorkbox with toggle option to mange squeezelite players in one location.
+building a bootstrap iframe inside a modal to display dorkbox with toggle option to port over to a real mpd client or mange squeezelite players - in one location.
 
 So dorkbox is fine for internet radio stations. See more on dorkbox (todo:  insert link here).  But after a couple of years, i-radios kinda get old.  And squeezelite is totally awesome, and you can manage several players plus 
 dial up your spotify account, and more.
