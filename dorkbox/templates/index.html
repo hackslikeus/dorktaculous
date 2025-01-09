@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+   fixtableindex.html
+   
+   Copyright 2025 Unknown <gary@gary>
+   
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+   MA 02110-1301, USA.
+   
+   
+-->
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+   <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css">
+  
+  <!-- Javascript -->  
+  <script type='text/javascript'>
+    function myFunction() {
+    document.getElementById("sl").disabled = true;
+    }
+
+      $(function() {
+        $('#table').bootstrapTable({ 
+          data: data,
+          columns: columns,
+        });
+
+    });
+  </script>
+  <style type='text/css'>
+    .row-index {
+      width: 50px;
+      display: inline-block;
+    }
+  </style>
+ 
+
+
+    <title>Station Listing</title>
+</head>
+<body>
+    
+   
+ <div class="content">
+   <div class="container-fluid p-2" style="background-color:#034569">
+      <span class="text-white"><font face="Orbitron">{{ hostname }} Radio</span>
+      <div class="btn-group">
+             <a href="/volumed" button type="button" class="btn btn-outline-info w-30"><i class="fas fa-volume-down"></i> Volume Down </a>
+             <a href="/stop" button type="button" class="btn btn-outline-warning w-30"><i class="far fa-pause-circle"></i>   Stop   </a>
+             <a href="/volumeu" button type="button" class="btn btn-outline-info w-30"><i class="fas fa-volume-up"></i> Volume Up </a>
+             </div>
+             <div class="btn-group">
+       	     <a class="btn btn-outline-secondary w-30" data-toggle="modal" data-target="#testModal" href="#">Shutdown Pi</a>
+                </div>
+                
+      <!-- Modal -->
+      <div class="modal fade" id="testModal" tabindex="-1" role="dialog" aria-labelledby="testModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="testModalLabel">Shutdown</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+            </div>
+            <div class="modal-body"> Are you sure you want to Shut Down Pi? </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+              <a href="/reboot" id="reboot" class="btn btn-warning">REBOOT</a> </div>
+              <a href="/shutdown" id="shutdown" class="btn btn-danger">SHUTDOWN</a> </div>
+          </div>
+        </div>
+        <!-- End Modal -->
+		<p><span class="text-white"> Now Playing: {{ station }} - {{ song }}</span></p></font>	
+        </div>
+     
+      </div>
+<script>
+$( document ).on( "click", "#reboot", function() {
+  $('#testModal').modal('hide');
+});
+</script>
+<div class="container">
+      
+                <table id="sl"
+                    data-toggle="table"
+                    data-filter-control="true"
+                    data-show-search-clear-button="true"
+                    data-sortable="true"
+                    classes="table-sm"
+                    data-pagination="true"
+                    data-show-columns="true"
+                    data-show-columns-toggle-all="true"
+                    class="table-responsive table-striped">
+                    <thead>
+                        <tr>                            
+                            <th data-field="name" data-filter-control="input" data-sortable="true" data-searchable="true" data-visible="true" data-click-to-select="true">name</th>
+                            <th data-field="url" data-filter-control="select" data-sortable="false" data-searchable="false" data-visible="false" data-click-to-select="false">url</th>
+                            <th data-field="descr" data-filter-control="select" data-sortable="false" data-searchable="false" data-visible="false" data-click-to-select="false">descr</th>
+                            <th data-field="logo" data-filter-control="select" data-sortable="false" data-searchable="false" data-visible="false" data-click-to-select="false">logo</th>
+                            <th data-field="mood" data-filter-control="input" data-sortable="true" data-searchable="true" data-visible="true" data-click-to-select="false">mood</th>
+                            <th data-field="id"  data-sortable="true">id</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in entries %}
+                        <tr>
+			    <div class="float-right">	
+                            <td>{{ row.name }}</td>
+                            <td>{{ row.url }}</td>
+                            <td>{{ row.descr }}</td>
+                            <td>{{ row.logo }}</td>
+                            <td>{{ row.mood }}</td>
+                            <div class="float-right">
+                            <td><a href="/{{ row.id }}" class="btn btn-outline-info btn-sm"> <i class="fa fa-play"></i> PLAY</a></td>
+                        </tr>
+			   </div>
+                        {% endfor %}
+                    </tbody>
+                </table>
+          
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.16.0/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
+    
+</body>
+</html>
