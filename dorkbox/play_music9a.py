@@ -16,7 +16,7 @@ web = True
 
 #keep below:
 #location of the csv file in same folder otherwise direct
-filename = "/home/pi/dorkbox/stations.csv"
+filename = "/home/pi/dorkbox/moodies.csv"
 
 # Initialize Flask.
 if web:
@@ -87,7 +87,7 @@ if web:
             logo = (splitz[4])
             #artist =os.popen('mpc -f %artist%').readline()
             song = os.popen('mpc -f %title%').readline()
-            return render_template("sub.html", station=station, logo=logo, song=song, **general_Data)
+            return render_template("index.html", station=station, logo=logo, song=song, **general_Data)
     print("proceed to your servers ip address at port 8080 using a web browser") #alert user program is running
 
 #Not sure if the below is needed, was working on LCD screen, will leave as it is harmless
