@@ -82,7 +82,7 @@ if web:
             run_cmd('mpc play')
             sleep(1)
             general_Data = {
-            'title' : 'Un-A-Ware v1'}
+            'hostname' : 'Un-A-Ware v1'}
             station = (splitz[1])
             logo = (splitz[4])
             #artist =os.popen('mpc -f %artist%').readline()
