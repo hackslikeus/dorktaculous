@@ -1,14 +1,14 @@
 id,name,url,descr,logo,mood
-1,Yacht Rachin Radio,http://streaming.live365.com/a78484,Ya knot rockin unless  your Yacht Rachin,https://item.radio456.com/007452/330159/logo-101671.png,retro
+1,Yacht Rachin Radio,http://streaming.live365.com/a78484,Ya knot rockin unless your Yacht Rachin,https://item.radio456.com/007452/330159/logo-101671.png,retro
 2,Soma – Groove Salad,http://ice2.somafm.com/groovesalad-256-mp3,A nicely chilled plate of ambient/downtempo beats and grooves.,https://so>,mellow
-3,The Departure Lounge,http://streamer.radio.co/s33849eced/listen,Music for the Jet Set,https://moodeaudio.org/forum/attachment.php?thumbnail=2897,ornery
+3,Radio Paradise – Main,http://stream.radioparadise.com/flacm ,Music for the Jet Set,https://moodeaudio.org/forum/attachment.php?thumbnail=2897,ornery
 4,Soma - Lush,http://ice6.somafm.com/lush-128-mp3,Sensuous and mellow vocals mostly female with an electronic influence.,https://somafm.co>,mellow
 5,Purple Radio,https://purplecurrent.stream.publicradio.org/purplecurrent.mp3,All Prince All the time,https://moodeaudio.org/forum/attachment.php?aid=3069,funky
 6,Soma - Beat Blender,http://ice6.somafm.com/beatblender-128-mp3,A late night blend of deep-house and downtempo chill.,https://somafm.com/>,mellow
 7,Soma - Heavyweight Reggae,http://ice3.somafm.com/reggae-256-mp3,Reggae Ska Rocksteady classic and deep tracks.,https://somafm.com/img3/r>,mellow
 8,Sixty North,http://r3.zetcast.net/stream,'60 North – United Kingdom,https://item.radio456.com/007452/330159/logo-90258.png,ornery
 9,KCSM,http://ice7.securenetsystems.net/KCSM2,San Mateo Jazz,https://moodeaudio.org/forum/attachment.php?thumbnail=2285,jazzy
-10,Barfly,http://ec2.yesstreaming.net:3350/stream,Greece,https://item.radio456.com/007452/330159/logo-77290.png,ornery
+10,Radio Paradise – Mellow,http://stream.radioparadise.com/mellow-flacm ,flac,https://item.radio456.com/007452/330159/logo-77290.png,mellow
 11,Soma - Indie Pop Rocks,http://ice2.somafm.com/indiepop-128-mp3,New and classic favorite indie pop tracks.,https://somafm.com/img3/indiep>,mellow
 12,CDNX,http://msmn7.co:8012,Camden Experience,https://cdn-radiotime-logos.tunein.com/s24451d.png,ornery
 13,Radio Swiss Jazz,https://stream.srg-ssr.ch/m/rsj/mp3_128, Basel's Laid Back Jazz,https://upload.wikimedia.org/wikipedia/commons/thumb/a/>,jazzy
@@ -16,11 +16,11 @@ id,name,url,descr,logo,mood
 15,ChillTrax,http://server1.chilltrax.com:9000/,Ambient Chill,https://www.chilltrax.com/images/specialty/default-album-cover.png,mellow
 16,Soma – Bagel Radio,http://ice2.somafm.com/bagel-128-mp3,What alternative rock radio should sound like.,https://somafm.com/img3/bagel-400.png,ornery
 17,Lounge-Radio,http://nl1.streamhosting.ch/,Switzerland Chill,https://lounge-radio.com/images/lounge-radio.com.png,mellow
-18,Aardvark Blues FM,http://edge4.peta.live365.net/b77280_128mp3,- United States -,https://www.radio.net/images/broadcasts/f0/66/17858/c300.png,blues
-19,The Blues Cove,https://radio.streemlion.com:2075/stream,- Toronto  ON Canada -,https://www.radio.net/images/broadcasts/cb/89/131120/1/c300.png,blues
-20,Blues Music Fan Radio,http://ais-sa2.cdnstream1.com/1992_128.mp3,- United States -,https://www.radio.net/images/broadcasts/d4/69/29778/1/c300.png,blues
+18,Radio Paradise – Rock,http://stream.radioparadise.com/rock-flacm ,flac,https://www.radio.net/images/broadcasts/f0/66/17858/c300.png,blues
+19,Gorilla Radio,http://strm112.1.fm/gorillafm_mobile_mp3,- Toronto  ON Canada -,https://www.radio.net/images/broadcasts/cb/89/131120/1/c300.png,blues
+20,Flux Forward,http://fluxfm.hoerradar.de/flux-forward-mp3-hq,- United States -,https://www.radio.net/images/broadcasts/d4/69/29778/1/c300.png,blues
 21,Soma - Christmas Lounge,http://ice4.somafm.com/christmas-256-mp3,Where Christmas Classics get old and old real fast,https://somafm.com/>,seasonal
-22,Amazing Blues,http://stream.amazingradios.com/blues,- USA - ,https://www.radio.net/images/broadcasts/f8/3a/38285/1/c300.png,ornery
+22,Indie XM,https://kathy.torontocast.com:2695/stream,- USA - ,https://www.radio.net/images/broadcasts/f8/3a/38285/1/c300.png,ornery
 23,Soma – 7 inch Soul,http://ice2.somafm.com/7soul-128-mp3,Vintage soul tracks from the original 45 RPM vinyl. ,https://somafm.com/img3/7s>,funky
 24,Soma – Secret Agent,http://ice4.somafm.com/secretagent-128-mp3,Tunes for spies - Tunes for Pi’s,https://somafm.com/img3/secretagent-400>,jazzy
 25,WDCB Chicago,http://wdcb-ice.streamguys.org:80/wdcb128,- Blues Jazz USA -,https://www.radio.net/images/broadcasts/c6/fd/23072/c100.png,blues
@@ -33,34 +33,34 @@ id,name,url,descr,logo,mood
 32,Big Bob Rock,http://streams.radiobob.de/bob-live/mp3-192/vtuner/,i guess if you're gonna rock deutchland rach!,https://www.radiobob.de/>,ornery
 33,Radio Paradise – World,https://stream.radioparadise.com/world-etc-320,- World Music - USA AAC -,https://somafm.com/img3/fluid-400.jpg,reggae
 34,Dandelion Radio,http://stream.dandelionradio.com:9414,Supposed to be good,https://moodeaudio.org/forum/attachment.php?thumbnail=2285,funky
-35,Roots Legacy Radio Dub,http://rootslegacy.fr:8080/listen1,- Lille  France - ,https://cdn-radiotime-logos.tunein.com/s190274d.png,reggae
-36,Reggae 4 Us,https://station.reggae4us.net:8010/stream,- United Kingdom,https://moodeaudio.org/forum/attachment.php?thumbnail=2285,reggae
+35,MyFavArtist,http://s8.voscast.com:9856/stream,USA,https://cdn-radiotime-logos.tunein.com/s190274d.png,reggae
+36,Pinguin Radio,http://streams.pinguinradio.com/PinguinRadio320.mp3,- United Kingdom,https://moodeaudio.org/forum/attachment.php?thumbnail=2285,reggae
 37,DR P8 Jazz,http://live-icy.gss.dr.dk:8000/A/A22H.mp3,Jazz – Denmark,https://www.radio.net/images/broadcasts/4b/81/12828/1/c300.png,jazzy
 38,Jazz Radio: Jazz & Cinéma,http://jzr-wr20.ice.infomaniak.ch/jzr-wr20,- Lyon  France - ,https://www.radio.net/images/broadcasts/26/e4/32204/2/c300.png,jazzy
 39,Hi On Line - Jazz,http://mediaserv38.live-streams.nl:8006/live,- Jazz - Netherlands -,https://www.radio.net/images/broadcasts/2b/f7/33546/c100.png,jazzy
 40,Jazz24,http://live.wostreaming.net/direct/ppm-jazz24aac256-ibc1,- Jazz - USA - ,https://www.radio.net/images/broadcasts/cc/42/1655/1/c100.png,jazzy
 41,NAIM Jazz,http://mscp3.live-streams.nl:8340/jazz-high.aac,- Jazz - UK -,https://www.radio.net/images/broadcasts/d1/09/12344/2/c100.png,jazzy
-42,Positivly Baroque,http://new.play.organlive.com:7002,- Classical Baroque - USA -,https://www.radio.net/images/broadcasts/d8/8c/110024/2/c100.png,jazzy
+42,Open Broadcast,http://stream.openbroadcast.ch/320.mp3 ,- Classical Baroque - USA -,https://www.radio.net/images/broadcasts/d8/8c/110024/2/c100.png,jazzy
 43,Radio SRF 2 Kultur,http://streaming.swisstxt.ch/m/drs2/mp3_128,- Classical Jazz Switzerland - ,https://www.radio.net/images/broadcasts/5e/51/4499/c100.png,jazzy
 44,SwissGroove,http://158.69.74.203:80/,- Jazz Funk Swiss - ,https://www.radio.net/images/broadcasts/9d/73/1988/c100.png,funky
-45,SWR 2,http://swr-swr2-live.cast.addradio.de/swr/swr2/live/mp3/256/stream.mp3,- Classical Jazz - ,https://www.radio.net/images/broadcasts/cb/2c/2414/5/c100.png,classey
-46,JB Radio 2,https://maggie.torontocast.com:8076/mp3,- Toronto Reggae -,https://moodeaudio.org/forum/attachment.php?aid=2525,reggae
-47,Blues Radio Athens,http://live.bluesradio.gr:8352/stream,- Athens Greece Blues -,https://moodeaudio.org/forum/attachment.php?thumbnail=2285,blues
+45,Radio Active,http://www.radio-active.net:8000/active,Cheezy radio,https://www.radio.net/images/broadcasts/cb/2c/2414/5/c100.png,classey
+46,Radio Caprice New Wave,http://primary4.vtuner.com/setupapp/audio/err.mp3,- Toronto Reggae -,https://moodeaudio.org/forum/attachment.php?aid=2525,reggae
+47,EldoRadio,http://sc-alternative.eldoradio.lu:80/stream,Luxemburg,https://moodeaudio.org/forum/attachment.php?thumbnail=2285,blues
 48,HD Radio Classic Rock,http://rosetta.shoutca.st:8352/, - No Clue where this is sourced -,https://item.radio456.com/007452/330159/logo-92201.png,ornery
 49,Smooth Jazz,http://smoothjazz.cdnstream1.com/2585_320.mp3,- United States - ,https://www.smoothjazz.com/sites/default/files/theme/sj-circle-logo.png,jazzy
 50,WEMU Ypsilanti,https://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFM.mp3,- Jazz MI - USA -,https://www.radio.net/images/broadcasts/c6/df/11097/c100.png,jazzy
-51,BBC Radio 3 320,http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/uk/sbr_high/ak/bbc_radio_three.m3u8,- Classical Jazz -  UK - ,https://www.radio.net/images/broadcasts/0e/1e/3245/1/c100.png,jazzy
-52,BR-Klassik,https://br-brklassik-live.cast.addradio.de/br/brklassik/live/mp3/high,Classical – Germany,https://www.radio.net/images/broadcasts/be/6c/2248/1/c300.png,classey
+51,Sector Radio,http://89.223.45.5:8000/progressive-flac,- Classical Jazz -  UK - ,https://www.radio.net/images/broadcasts/0e/1e/3245/1/c100.png,jazzy
+52,Sector Geny,http://89.223.45.5:8000/geny-flac,Classical – Germany,https://www.radio.net/images/broadcasts/be/6c/2248/1/c300.png,classey
 53,Concertzender,http://streams.greenhost.nl:8080/concertzenderlive,- Classical  Jazz  World - Utrecht  The Netherlands - ,https://cdn-radiotime-logos.tunein.com/s284386d.png,classey
 54,Hi On Line - Classical,http://mediaserv30.live-streams.nl:8088/live,- Classical Netherlands -,https://www.radio.net/images/broadcasts/2b/f7/33546/c100.png,classey
-55,Superstereo One,http://198.204.228.202:8160/flac, - No Clue where this is sourced -,https://moodeaudio.org/forum/attachment.php?aid=2937,ornery
-56,Superstereo Two,http://198.204.228.202:8157/flac, - No Clue where this is sourced -,https://moodeaudio.org/forum/attachment.php?aid=2938,experimental
-57,Superstereo Three,http://198.204.228.202:8539/flac, - No Clue where this is sourced -,https://moodeaudio.org/forum/attachment.php?aid=2939,experimental
-58,Superstereo Four,http://198.204.228.202:8030/flac, - No Clue where this is sourced -,https://moodeaudio.org/forum/attachment.php?aid=2940,experimental
-59,Radio Yacht,http://radioyachtcapri.newradio.it/1, - Capri Italy -,https://item.radio456.com/007452/330159/logo-53211.png,experimental
-60,Superstereo Six,http://198.204.228.202:8157/flac6, - No Clue where this is sourced -,https://moodeaudio.org/forum/attachment.php?aid=2936,experimental
+55,Sector 90’s,http://89.223.45.5:8000/next-flac, - No Clue where this is sourced -,https://moodeaudio.org/forum/attachment.php?aid=2937,ornery
+56,Sector 10’s,http://stream.sectorradio.ru:8000/zed-flac, - No Clue where this is sourced -,https://moodeaudio.org/forum/attachment.php?aid=2938,experimental
+57,Bulldog Radio,http://computronpc.net:8000/Bulldog933,Athens Georgia – Bulldogs,https://moodeaudio.org/forum/attachment.php?aid=2939,experimental
+58,Czech Radio Jazz,http://amp.cesnet.cz:8000/cro-jazz.flac, - No Clue where this is sourced -,https://moodeaudio.org/forum/attachment.php?aid=2940,experimental
+59,Sensation Rock,http://sensationrock.ice.infomaniak.ch/sensationrock-128.aac,Somewhere in France,https://item.radio456.com/007452/330159/logo-53211.png,experimental
+60,KUVO _NPR,http://kuvo-ice.streamguys.org/kuvo-aac-128, - No Clue where this is sourced -,https://moodeaudio.org/forum/attachment.php?aid=2936,experimental
 61,HD Radio Rock N Roll,http://rosetta.shoutca.st:8360/, - United States -,https://item.radio456.com/007452/330159/logo-92194.png,ornery
-62,HD Radio Party Mix,http://haradiopartymix-rfritschka.radioca.st/, - United States -,https://item.radio456.com/007452/330159/logo-92197.png,festive
+62,Kiss something,http://nl1.streamingpulse.com/ssl/radiorouge993,Toronto,https://item.radio456.com/007452/330159/logo-92197.png,festive
 63,HD Radio Jazz,http://rosetta.shoutca.st:8290/, - United States -,https://item.radio456.com/007452/330159/logo-92197.png,jazzy
 64,Czech Radio Classical,http://icecast6.play.cz/croddur-256.mp3,- Classical Czech Republic  - ,https://cdn-radiotime-logos.tunein.com/s24331d.png,classey
 65,Yle Klassinen,http://icecast.live.yle.fi/radio/YleKlassinen/icecast.audio,- Classical Music - Helsinki  Finland - ,https://cdn-profiles.tunein.com/s68319/images/logod.jpg?t=1,classey
