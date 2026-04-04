@@ -16,7 +16,7 @@ web = True
 
 #keep below:
 #location of the csv file in same folder otherwise direct
-filename = "/home/pi/dorkbox/moodies.csv"
+filename = "/home/pi/dorktaculous/dorkbox/moodies.csv"
 
 # Initialize Flask.
 if web:
@@ -82,7 +82,7 @@ if web:
             run_cmd('mpc play')
             sleep(1)
             general_Data = {
-            'hostname' : 'Un-A-Ware v1'}
+            'hostname' : 'replaceme'}
             station = (splitz[1])
             logo = (splitz[4])
             #artist =os.popen('mpc -f %artist%').readline()
